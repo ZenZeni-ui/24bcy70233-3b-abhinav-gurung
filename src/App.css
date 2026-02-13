@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+
+  /* main background */
+  background: url("./assets/mybg.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* readable global text */
+  color: #2d1b4e;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+
+  /* box background */
+  background: url("./assets/boxbg.jpg") no-repeat center center;
+  background-size: cover;
+
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* title */
+h1 {
+  text-align: center;
+  color: #3b1f6b;
+}
+
+/* inner panel — transparent tint */
+.sort {
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.35);
+  margin-bottom: 20px;
+}
+
+/* search + inputs */
+.search,
+.form input {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  background: rgba(255,255,255,0.6);
+  border: none;
+  border-radius: 6px;
+
+  color: #2d1b4e;
+  font-weight: 600;
+}
+
+input::placeholder {
+  color: rgba(45,27,78,0.6);
+}
+
+/* form layout */
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+}
+
+/* add button */
+.form button {
+  background: #7c3aed;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form button:hover {
+  background: #6d28d9;
+}
+
+/* book cards */
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.35);
+
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  color: #2d1b4e;
+}
+
+/* remove button */
+.remove {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.remove:hover {
+  background: #b91c1c;
+}
+
+
+
+
